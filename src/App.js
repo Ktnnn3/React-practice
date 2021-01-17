@@ -38,7 +38,9 @@ function App() {
          <div className="app-container">
          <AppSearch value={searchText} onValueChange={setSearchText} />
           <div className="app-grid">
+            
             {picItems}
+            
           </div>
          </div>
        </section>
