@@ -1,0 +1,26 @@
+.pic-item-sqr img {
+    display: block; /*เต็มแค่ในส่วนกริตเท่านั้น*/
+    width: 100%;
+    height: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pic-item-h img{
+    display: block; /*เต็มแค่ในส่วนกริตเท่านั้น*/
+    width: 100%;
+    height: 450px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pic-item-w img{
+    display: block; /*เต็มแค่ในส่วนกริตเท่านั้น*/
+    width: 100%;
+    height: 250px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}

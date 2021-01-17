@@ -1,0 +1,7 @@
+.app-header{
+    border-bottom: 1px solid gray; /* 1px เส้นหนา สีเทา */
+    height: 50px; /*สูง*/
+    display: flex; /*ตรงกลาง*/
+    justify-content:center ; /*แนวนอน*/
+    align-items: center; /*แนวตั้ง*/
+}

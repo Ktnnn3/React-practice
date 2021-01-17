@@ -1,38 +1,18 @@
-.App {
-  text-align: center;
+.app-section{
+    padding: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-container{
+    /*ให้อยู่ตรงกลาง*/
+    max-width:800px ;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app-grid{
+    display: grid; /*ให้เปนกริต*/
+    grid-template-columns: 1fr 1fr; /*ใส่คอลัมม์ไป2ตัว ขนาดเท่ากัน*/
+    column-gap: 16px;/*ช่องว่างระหว่างคอลัมม์*/
+    row-gap: 16px; /*ช่องว่างระหว่างแถว*/
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

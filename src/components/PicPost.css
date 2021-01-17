@@ -1,0 +1,42 @@
+.pic-post{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    /*in middle*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic-post-bg{
+    background-color: rgba(0, 0, 0, 0.815);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.pic-post-content{
+    position: relative; /*เทียบกับ absolute ด้านบน จะได้ไม่ไปอยู่ด้านหลัง*/
+    max-width: 1200px;
+    background-color: black;
+}
+
+.pic-post-content img{
+    display: block;
+    max-width: 100;
+    max-height: calc(100vh-120px) ; /*ขนาดหน้าจอ ลบด้วย px สักขนาดนึง*/
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 300px;
+
+}
+.pic-post-content h4 {
+    color: wheat;
+    text-align: center;
+}
